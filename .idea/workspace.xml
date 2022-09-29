@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0fb8ded-6a65-4a15-a41e-ce0f20950a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_directory_selection": "/Users/ivansmile/IdeaProjects/massiv/src/test/java/ru/netology"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/ivansmile/IdeaProjects/massiv/src/test/java/ru/netology&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -60,28 +57,8 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatisticServiceTest.testSun (1)">
+  <component name="RunManager" selected="JUnit.StatisticServiceTest.testAboveAverage">
     <configuration name="StatisticServiceTest.testAboveAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="massiv" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatisticServiceTest" />
-      <option name="METHOD_NAME" value="testAboveAverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatisticServiceTest.testBelowAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="massiv" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatisticServiceTest" />
-      <option name="METHOD_NAME" value="testBelowAverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatisticServiceTest.testSun (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="massiv" />
       <extension name="coverage">
         <pattern>
@@ -91,33 +68,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatisticServiceTest" />
-      <option name="METHOD_NAME" value="testSun" />
+      <option name="METHOD_NAME" value="testAboveAverage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatisticServiceTest.testSun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatisticServiceTest.testAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="massiv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.javaqa.javaqamvn.services.*" />
+          <option name="PATTERN" value="ru.netology.stats.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatisticServiceTest" />
-      <option name="METHOD_NAME" value="testSun" />
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatisticServiceTest" />
+      <option name="METHOD_NAME" value="testAverage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatisticServiceTest.testaboveAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatisticServiceTest.testBelowAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="massiv" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatisticServiceTest" />
-      <option name="METHOD_NAME" value="testaboveAverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatisticServiceTest" />
+      <option name="METHOD_NAME" value="testBelowAverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticServiceTest.testMaximum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="massiv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatisticServiceTest" />
+      <option name="METHOD_NAME" value="testMaximum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticServiceTest.testMinimum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="massiv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatisticServiceTest" />
+      <option name="METHOD_NAME" value="testMinimum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StatisticServiceTest.testSun (1)" />
-        <item itemvalue="JUnit.StatisticServiceTest.testSun" />
         <item itemvalue="JUnit.StatisticServiceTest.testAboveAverage" />
-        <item itemvalue="JUnit.StatisticServiceTest.testaboveAverage" />
         <item itemvalue="JUnit.StatisticServiceTest.testBelowAverage" />
+        <item itemvalue="JUnit.StatisticServiceTest.testMinimum" />
+        <item itemvalue="JUnit.StatisticServiceTest.testMaximum" />
+        <item itemvalue="JUnit.StatisticServiceTest.testAverage" />
       </list>
     </recent_temporary>
   </component>
